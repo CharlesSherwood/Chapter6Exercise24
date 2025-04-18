@@ -56,7 +56,7 @@ int CompsChoice(int RChoice)
     return RChoice;
 }
 
-
+ 
 //Generates A Random Num Between 1 and 3
 int RandomNum()
 {
