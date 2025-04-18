@@ -13,81 +13,138 @@ like a game of rock paper scissors.
 using namespace std;
 
 
-void Menu();
-int CompsChoice();
+//Prototypes
+int Menu();
+int CompsChoice(int RChoice);
+int RandomNum();
 void Welcome();
 bool Repeat();
+void Winner(int choice,int ComChoice);
 
-int main()
+
+
+int main(int choice)
 {
-    srand(time(NULL));
-    
-    
-
-
+    srand(time(0));
+   Welcome();
+   do
+   {
+       int ComChoice = RandomNum();
+       int choice = Menu();
+       int DisplayChoice=CompsChoice(ComChoice);
+       Winner(choice, ComChoice);
+   } while (Repeat());
 
 }
 
-int CompsChoice()
+
+//Takes Computer Choice And Displays What It Chose
+int CompsChoice(int RChoice)
 {
-    return (rand() % 3 + 1);
+    if (RChoice == 1)
+    {
+        cout << "\nThe Computer Chose Rock\n";
+    }
+    else if (RChoice == 2)
+    {
+        cout << "The Computer Chose Paper\n";
+    }
+    else
+    {
+        cout << "The Computer Chose Scissors\n";
+    }
+    return RChoice;
 }
+
+
+//Generates A Random Num Between 1 and 3
+int RandomNum()
+{
+     return (rand() % 3 + 1);
+}
+
+
+
+//Displays A Welcome Message
 void Welcome()
 {
-
+    cout << "----------------------------------\n";
+    cout << "!!Welcome To Rock,Paper,Scissors!!\n";
+    cout << "----------------------------------\n";
 }
+
+
+
 //Displays The Choices Of The Game
-void Menu()
+int Menu()
 {
     int choice;
-    do
-    {
+        cout << "\nPlease Make A Choice From Below\n";
+        cout << "------------------\n";
         cout << "1-Rock\n";
         cout << "2-Paper\n";
         cout << "3-Scissors\n";
-        cout << "4-Exit The Game\n";
+        cout << "------------------\n";
         cin >> choice;
         switch (choice)
         {
         case 1:
         {
-
+            cout << "You Have Chosen Rock\n";
         }
-            break;
+        break;
         case 2:
         {
+            cout << "You Have Chosen Paper\n";
 
         }
-            break;
+        break;
 
         case 3:
         {
-
+            cout << "You Have Chosen Scissors\n";
         }
-            break;
+        break;
 
-        case 4:
-        {
-
-        }
-            break;
-
+        //Checks If The User Enters A Number Thats not On The List
         default:
-            cout << "Invalid Option Please Make A choice Thats On The Menu:";
-            cin >> choice;
+        {
+            while (choice > 3)
+            {
+                cout << "Invalid Option Please Make A choice Thats On The Menu:";
+                cin >> choice;
+            }
         }
 
-    } while (choice != 4);
+
+        }
+        return choice;
 
 }
 
 
-
-
-
-
-
-
+//Checks The User Choice Vs The Computers Choice
+void Winner(int choice,int ComChoice)
+{
+    if (choice == 1 && ComChoice == 2 || choice == 3 && ComChoice == 1 || choice == 2 && ComChoice == 3)
+    {
+        cout << "\n---------------------\n";
+        cout << "!!The Computer Wins!!\n";
+        cout << "---------------------\n";
+    }
+    else if (choice == 2 && ComChoice == 1 || choice == 3 && ComChoice == 2 || choice == 1 && ComChoice == 3)
+    {
+        cout << "\n-----------\n";
+        cout << "!!YOU WIN!!\n";
+        cout << "-----------\n";
+    }
+    else
+    {
+        cout << "\n----------------\n";
+        cout << "!!It Was A Tie!!\n";
+        cout << "----------------\n";
+    }
+}
 
 
 
