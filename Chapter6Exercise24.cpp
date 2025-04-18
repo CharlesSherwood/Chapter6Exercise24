@@ -29,14 +29,6 @@ int main()
 {
     srand(time(0));
     Welcome();
-
-    char viewRecords;
-    cout << "Would you like to view saved player records? (Y/N): ";
-    cin >> viewRecords;
-    if (viewRecords == 'Y' || viewRecords == 'y') {
-        ShowSavedData();
-    }
-
     string playerName = GetName();
     int Win = 0, Lose = 0, Tie = 0;
 
