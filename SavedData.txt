@@ -1,0 +1,151 @@
+Player: 0
+Wins: 0
+Losses: 0
+Ties: 0
+------------------------
+Player: Charles Sherwood
+Wins: 1
+Losses: 0
+Ties: 0
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 2
+Losses: 0
+Ties: 0
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 2
+Losses: 0
+Ties: 1
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 2
+Losses: 1
+Ties: 1
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 0
+Losses: 0
+Ties: 1
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 0
+Losses: 0
+Ties: 2
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 1
+Losses: 0
+Ties: 2
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 2
+Losses: 0
+Ties: 2
+------------------------
+
+------------------------
+Player: Charles Sherwood
+Wins: 3
+Losses: 0
+Ties: 2
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 0
+Ties: 1
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 1
+Ties: 1
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 2
+Ties: 1
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 2
+Ties: 2
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 3
+Ties: 2
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 3
+Ties: 3
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 1
+Losses: 3
+Ties: 3
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 0
+Losses: 0
+Ties: 1
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 1
+Losses: 0
+Ties: 0
+------------------------
+
+------------------------
+Player: harles Sherwood
+Wins: 2
+Losses: 0
+Ties: 0
+------------------------
+
+------------------------
+Player: Charles Sherwood 
+Wins: 1
+Losses: 0
+Ties: 0
+------------------------
+
+------------------------
+Player: arles Sherwood 
+Wins: 0
+Losses: 1
+Ties: 0
+------------------------
+
