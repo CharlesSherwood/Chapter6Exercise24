@@ -5,7 +5,7 @@ Requirements:This Program shoudl act
 like a game of rock paper scissors.
 */
 
-#include<string>
+//#include<string>
 #include<cstdlib>
 #include<ctime>
 #include <iostream>
@@ -64,7 +64,7 @@ int RandomNum()
 }
 
 
-
+ 
 //Displays A Welcome Message
 void Welcome()
 {
